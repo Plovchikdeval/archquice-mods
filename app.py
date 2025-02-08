@@ -183,4 +183,4 @@ if __name__ == "__main__":
     print(f"\033[36m + no-derivatives\033[0m", end="\n\n")
     print(f"\033[36mСайт [FTG WEB mods] успешно запущен!\033[0m")
 
-    uvicorn.run(app, host="0.0.0.0", port=config['port'])
+    uvicorn.run(app, host="0.0.0.0", port="1020")
